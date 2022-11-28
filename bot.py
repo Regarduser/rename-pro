@@ -8,6 +8,9 @@ APP_ID = int(os.environ.get("APP_ID", ""))
 
 API_HASH = os.environ.get("API_HASH", "")
 
+#Port
+PORT = environ.get("PORT", "8080")
+
 if __name__ == "__main__" :
     plugins = dict(
         root="plugins"
